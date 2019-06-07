@@ -1,0 +1,345 @@
+* {
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  overflow-x: hidden;
+
+  font-size: 1.11vw;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  line-height: 140%;
+}
+
+header {
+  display: block;
+
+  height: 41.5em;
+
+  background-image: url(../images/bg2.png);
+  /*background-position: 0 -6em;*/
+  background-size: cover;
+}
+
+header img {
+  display: inline-block;
+
+  width: 20em;
+  height: auto;
+  margin-top: 3.7em;
+  margin-left: 39%;
+}
+
+.description {
+  width: 100%;
+  height: 21.8em;
+  margin-top: 4em;
+
+  background-color: #fff;
+}
+
+h1 {
+  padding-top: 0.6em;
+
+  text-align: center;
+
+  color: #000;
+
+  font-family: 'Domyouji', sans-serif;
+  font-size: 4rem;
+}
+
+header p {
+  margin-right: 15em;
+  margin-left: 15em;
+  padding-top: 1.3em;
+
+  text-align: center;
+
+  color: #000;
+
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+}
+
+.buttons {
+  margin-top: 2.5em;
+  margin-right: 0.5em;
+
+  text-align: center;
+}
+
+button {
+  z-index: 333;
+
+  display: inline;
+
+  width: 25em;
+  width: auto;
+  height: 5em;
+  padding: 1em 3em 1.3em 3em;
+
+  cursor: pointer;
+
+  border: 0.2em #8c4d98 solid;
+  box-shadow: 0.3em 0.3em 0.5em 0 rgba(0, 0, 0, .2);
+
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+button a {
+  margin: auto;
+
+  text-decoration: none;
+
+  color: inherit;
+
+  font-size: 1rem;
+  font-variant: normal;
+}
+
+button a {
+  position: relative;
+
+  display: block;
+
+  cursor: pointer;
+}
+
+button a:before, button a:after {
+  position: absolute;
+  top: 50%;
+
+  width: 0%;
+  height: 3px;
+  margin-top: -0.5px;
+
+  content: '';
+
+  background: #f6e856;
+}
+
+button a:before {
+    left: -2.2em;
+}
+button a:after {
+  right: -2.2em;
+
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+
+  background: #f6e856;
+}
+
+button a:hover:before {
+  width: 163%;
+
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+
+  background: #f6e856;
+}
+
+button a:hover:after {
+  width: 162%;
+
+  transition: 0s;
+
+  background: transparent;
+}
+
+.buy {
+  margin-right: 3em;
+
+  color: #fff;
+  background-color: #8c4e99;
+}
+
+.knowmore {
+  background-color: #fff;
+}
+
+.facts, .road, .reviews {
+  padding-top: 6.8em;
+  padding-left: 9.3em;
+}
+
+.facts {
+  width: 60%;
+}
+
+h2 {
+  color: #8c4d98;
+
+  font-family: 'Domyouji';
+  font-size: 3rem;
+}
+
+.facts ul {
+  padding-top: 2.7em;
+}
+
+.facts li {
+  padding-top: 0.2em;
+  padding-bottom: 1em;
+}
+
+.facts p, .road p {
+  padding-left: 4.3em;
+}
+
+li img {
+  position: absolute;
+
+  width: 1em;
+  height: auto;
+  padding-top: 0.3em;
+}
+
+.video {
+  width: 100%;
+  height: 40.15em;
+  margin-top: 5.8em;
+
+  background-image: url(../images/videobg.png);
+  background-size: cover;
+}
+
+iframe {
+  margin-left: 9.3em;
+}
+
+.road ul {
+  margin-top: 3.5em;
+}
+
+.road p {
+  margin-top: 1.6em;
+}
+
+.reviews {
+  width: 82.8%;
+}
+
+.reviewpanel {
+  display: flex;
+  flex-direction: column;
+
+  height: 35em;
+  margin-top: 3.3em;
+
+  flex-wrap: wrap;
+}
+
+.opinion {
+  width: 40%;
+  padding-right: 6.5em;
+  padding-bottom: 1.7em;
+}
+
+.opiniom:not(:first-of-type) {
+  padding-left: 3em;
+}
+
+h3, h4 {
+  font-family: 'Lato';
+}
+
+.reviewpanel h3 {
+  padding-top: 0.3em;
+  padding-left: 3.2em;
+
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.reviewpanel h4 {
+  padding-top: 0.6em;
+  padding-left: 6.5em;
+
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.reviewpanel p {
+  padding-top: 2em;
+
+  font-size: 0.9rem;
+}
+
+.opinion img {
+  position: absolute;
+
+  width: 4em;
+  height: 4em;
+}
+
+.infography {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  height: 24.5em;
+  margin-top: 5em;
+  margin-bottom: 5em; /*это потом убрать*/
+  margin-left: 0;
+
+  background-image: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+
+  width: 86.5%;
+  margin-top: 6.6em;
+
+  text-align: center;
+
+  flex-wrap: wrap;
+}
+
+.info:first-of-type {
+  padding-left: 9.2em;
+}
+
+#center {
+  padding-left: 2.7em;
+}
+
+.info:last-of-type {
+  padding-right: 6.1em;
+}
+
+#number {
+  color: white;
+
+  font-family: 'Domyouji';
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.info span {
+  height: 0.5em;
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+
+  background-color: #f7e826;
+}
+
+.info h3 {
+  padding-top: 0.3em;
+
+  color: white;
+
+  font-family: 'Lato';
+  font-size: 1.6rem;
+  font-weight: bold;
+}
