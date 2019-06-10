@@ -15,15 +15,16 @@
         <p>Недалеко от шумной столицы, километрах эдак в стапятидесяти, раскинулся первый в России молодежный санаторий. Здесь пение птиц заменило гул машин, зеленые поля  — серость асфальта, а компот в кружке - твою банку с энергетиком (вместо компота может быть самогон).</p>
         <div class="buttons">
           <button class="buy">
-            <a href="#">Купить путевку</a>
+            <a href="#buy">Купить путевку</a>
           </button>
           <button class="knowmore">
-            <a href="#">Узнать больше</a>
+            <a href="#more">Узнать больше</a>
           </button>
         </div>
       </div>
     </header>
-    <section class="facts">
+    <img class="map" src="images/map.png">
+    <section class="facts" id="more">
       <h2>Немного о нас</h2>
       <ul>
         <li>
@@ -120,28 +121,105 @@
       </div>
     </section>
     <section class="infography">
-
-      <div class="info" id="center">
-        <div id="number">14 дней</div>
-        <span style="width: 21.7em;
-          margin-left: 1.7em;"></span>
-        <h3>средняя продолжительность отдыха у нас</h3>
-      </div>
-      <div class="info">
-        <div id="number">5356</div>
-        <span style="width: 22.5em;
-          margin-left: 0.3em;"></span>
-        <h3>девушек и парней побывали в "Семечках"</h3>
-      </div>
-      <div class="info">
-        <div id="number">80000</div>
-        <span style="width: 18.3em;
-          margin-left: 2.8em;"></span>
-        <h3>м² занимает территория санатория</h3>
-      </div>
-
+        <div class="info" id="center">
+          <div id="number">14 дней</div>
+          <span style="width: 21.7em;
+            margin-left: 1.3em;"></span>
+          <h3>средняя продолжительность отдыха у нас</h3>
+        </div>
+        <div class="info">
+          <div id="number">5356</div>
+          <span style="width: 22.5em;
+            margin-left: 2.3em;"></span>
+          <h3>девушек и парней побывали в "Семечках"</h3>
+        </div>
+        <div class="info">
+          <div id="number">80000</div>
+          <span style="width: 18.3em;
+            margin-left: 3.4em;"></span>
+          <h3>м² занимает территория санатория</h3>
+        </div>
     </section>
+    <img class="bag" src="images/bag.png">
+    <section class="whattotake">
+      <h2>Что взять с собой?</h2>
+      <ul>
+        <li>
+          <img src="images/marker1.png">
+          <p>Паспорт;</p>
+        </li>
+        <li>
+          <img src="images/marker1.png">
+          <p>Легкая одежда, которую не жалко;</p>
+        </li>
+        <li>
+          <img src="images/marker2.png">
+          <p>Непромокаемая верхняя одежда на случай непогоды;</p>
+        </li>
+        <li>
+          <img src="images/marker1.png">
+          <p>Головной убор;</p>
+        </li>
+        <li>
+          <img src="images/marker1.png">
+          <p>Удобная обувь;</p>
+        </li>
+        <li>
+          <img src="images/marker2.png">
+          <p>Резиновые пляжные тапочки;</p>
+        </li>
+        <li>
+          <img src="images/marker2.png">
+          <p>Принадлежности для купания;</p>
+        </li>
+        <li>
+          <img src="images/marker1.png">
+          <p>Средства от насекомых (но у нас несколько есть).</p>
+        </li>
+      </ul>
+    </section>
+    <div class="line1"></div>
+    <section class="booking">
+      <div class="wrapper">
+        <form>
+      	  <h2 id="buy">Купить путевку</h2>
+          <div class="forma">
+            <label class="desc" id="title1" for="test1" style="margin-left: 0;">Имя</label>
+      	    <input type="text" id="test1" class="text-field" placeholder="Имя"  style="margin-left: 16.9em;" />
+
+            <label class="desc" id="title1" for="test1" style="margin-left: 4.1em;">E-mail</label>
+      	    <input type="text" id="test1" class="text-field" placeholder="E-mail" style="margin-left: 10.15em;" />
+          </div>
+
+          <div class="forma">
+            <label class="desc" id="title1" for="arrival">Дата прибытия</label>
+            <input type="date" id="arrival" class="text-field" value="12/19/2012" style="margin-left: 5.7em;" />
+
+            <label class="desc" id="title1" for="arrival" style="margin-left: 4.18em;">Дата отъезда</label>
+            <input type="date" id="arrival" class="text-field" value="12/19/2012" style="margin-left: 2.35em;" />
+          </div>
+
+          <div class="forma">
+            <label class="desc" id="title3" for="adults" style="margin-left: 0;">Количество гостей<label>
+            <input type="number" id="adults" class="text-field" name="adults" min="1" max="20" step="1" value="1" >
+
+            <label class="desc" id="title6" for="test1" style="margin-left: 4em;">Комментарий</label>
+            <input type="text" id="test6" class="text-field" />
+          </div>
+
+
+
+          <button class="buy">
+            <a href="#buy">Забронировать</a>
+          </button>
+        </form>
+      </div>
+    </section>
+    <section class="anyquestions">
+    </section>  
     <footer>
     </footer>
+    <script src="js/booking.js"></script>
+    <script src="js/scroll.js"></script>
   </body>
 </html>
