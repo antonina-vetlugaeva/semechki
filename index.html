@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="stylesheet/styles.css">
     <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
+    <script src="https://www.andismith.com/caniuse-widget/js/caniuse.js" charset="utf-8"></script>
     <title>Молодежный санаторий Семечки</title>
   </head>
   <body>
@@ -207,7 +208,12 @@
             <input type="text" id="test6" class="text-field" />
           </div>
 
-
+          <dialog class="popup">
+              <h2>Номер забронирован</h2>
+          		<p>В ближайшее время мы свяжемся с Вами по электронной почте, чтобы обсудить детали брони.</p>
+          		<a class="close-popup" href="#"><img src="
+                images/close-btn.png"></a>
+          </dialog>
 
           <button class="buy">
             <a href="#buy">Забронировать</a>
@@ -215,11 +221,26 @@
         </form>
       </div>
     </section>
-    <section class="anyquestions">
-    </section>  
     <footer>
+      <section class="anyquestions">
+        <div class="question">
+          <h2>Остались вопросы?</h2>
+          <p>Просто напишите нам :)</p>
+          <button class="knowmore">
+            <a>Написать</a>
+          </button>
+        </div>
+          <iframe src="https://auen.ru/instablock.php?u=semechki_relax&count=6&w=169&fw=550&fh=485&il=0&tb=semechki_relax&cb=0&st=1&tl=Подписаться&cl=1" style="width:550px;height:485px;border:solid 1px #ccc;"></iframe>
+      </section>
     </footer>
+    <div class="realfooter">
+      <h5>Проект студентки первого курса профиля «Дизайн и программирование»</h5>
+      <h6>Школа дизайна НИУ ВШЭ</h6>
+      <h6>Тоня Ветлугаева © 2019</h6>
+    </div>
     <script src="js/booking.js"></script>
     <script src="js/scroll.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/inst.js"></script>
   </body>
 </html>

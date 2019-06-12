@@ -429,3 +429,113 @@ form .text-field:focus {
 form button {
  margin-top: 2.7em;
 }
+
+#mymodal {
+  position: relative;
+
+  max-width: 600px;
+  margin: 0 auto;
+
+  background-color: #FFF;
+}
+
+.popup img {
+  position: absolute;
+
+  width: 2em;
+  height: auto;
+  margin-top: -9em;
+  margin-left: 51.5em;
+}
+
+.popup h2 {
+  padding-top: 0.5em;
+  padding-bottom: 0;
+}
+
+.popup p {
+  padding-top: 1.3em;
+  padding-bottom: 1.6em;
+}
+
+footer {
+  height: 40.5em;
+  margin-top: 7.2em;
+
+  background-color: #8c4d98;
+  background-image: url(../images/bg3.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.anyquestions {
+  display: flex;
+  flex-direction: row;
+}
+
+.question {
+  height: 15.7em;
+  margin-top: 5em;
+  margin-left: 5.5em;
+
+  background-color: #fff;
+}
+
+.question h2 {
+  padding-top: 0.7em;
+  padding-right: 0.7em;
+  padding-left: 0.7em;
+}
+
+.question p {
+  padding-top: 1em;
+  padding-left: 1.9em;
+}
+
+.question button {
+  margin-top: 2.5em;
+  margin-left: 3.3em;
+}
+
+.question a:hover:before {
+  width: 200%;
+
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+
+  background: #f6e856;
+}
+
+iframe {
+  margin-top: 5em;
+}
+
+.realfooter {
+  padding-top: 3em;
+  padding-bottom: 3em;
+
+  text-align: center;
+
+  background-color: #929292;
+}
+
+.realfooter h5, h6 {
+  color: #ffffff;
+
+  font-family: 'Lato';
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+.realfooter h6:first-of-type {
+  padding-top: 1em;
+
+  font-size: 0.9rem;
+}
+
+.realfooter h6 {
+  padding-top: 1em;
+
+  font-size: 0.8rem;
+}
