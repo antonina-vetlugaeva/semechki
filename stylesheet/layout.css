@@ -230,10 +230,6 @@ iframe {
   margin-top: 1.6em;
 }
 
-.reviews {
-  width: 100%;
-}
-
 .reviewpanel {
   display: flex;
   flex-direction: column;
