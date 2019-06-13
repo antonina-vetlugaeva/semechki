@@ -231,14 +231,14 @@ iframe {
 }
 
 .reviews {
-  width: 82.8%;
+  width: 100%;
 }
 
 .reviewpanel {
   display: flex;
   flex-direction: column;
 
-  width: auto;
+  width: 82%;
   height: 35em;
   margin-top: 3.3em;
 
